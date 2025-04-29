@@ -170,7 +170,7 @@ const ManagerDashboard = () => {
           <td className="py-2 px-4">uploaded_file_1.pdf</td>
           <td className="py-2 px-4">Uploaded</td>
           <td className="py-2 px-4">
-            <button className="bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-600">
+            <button className="bg-[#e1cef6] text-black px-4 py-1 rounded hover:bg-[#eb85eb]">
               Download Processed File
             </button>
           </td>
@@ -179,7 +179,7 @@ const ManagerDashboard = () => {
           <td className="py-2 px-4">uploaded_file_2.docx</td>
           <td className="py-2 px-4">Processed</td>
           <td className="py-2 px-4">
-            <button className="bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-600">
+            <button className="bg-[#e1cef6] text-black px-4 py-1 rounded hover:bg-[#eb85eb]">
               Download Processed File
             </button>
           </td>

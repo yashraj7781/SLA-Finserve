@@ -17,6 +17,7 @@ const Homepage = () => {
         <div className="text-4xl font-bold  flex items-center space-x-2">
           <span className="text-[#883cda] text-5xl font-extrabold">SLA Finserve</span>
         </div>
+        
 
         <div
           onClick={handleLoginClick}
@@ -27,6 +28,7 @@ const Homepage = () => {
           Login
         </div>
       </header>
+      
 
     
 
@@ -86,8 +88,19 @@ const Homepage = () => {
             </motion.div>
           </div>
         </div>
-      </section>
+        <div className='flex flex-row gap-5'>
+        <div className=' hover:bg-[#eb85eb]  flex items-center  text-center justify-center mt-12 rounded-2xl bg-[#e1cef6] h-22 w-49 text-2xl font-bold'>
+        <a href="/dashboard">Data Analyst Dashboard</a>
 
+      </div>
+      <div className=' hover:bg-[#eb85eb]  flex items-center text-center justify-center mt-12 rounded-2xl bg-[#e1cef6] h-22 w-49 text-2xl font-bold'>
+        <a href="/manager-dashboard">Manager Dashboard</a>
+
+      </div>
+      </div>
+
+      </section>
+      
       {/* Footer */}
       <footer className="w-full text-center py-2 border-t border-[#C8E6C9] text-sm text-[#4E5D52] bg-[#e1cef6] mt-auto">
         <div className="flex justify-center gap-8 mb-4">
