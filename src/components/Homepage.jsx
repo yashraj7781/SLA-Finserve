@@ -15,7 +15,7 @@ const Homepage = () => {
       {/* Navbar */}
       <header className="w-full px-8 py-6 flex justify-between items-center bg-white  shadow-xl fixed top-0 left-0 right-0 z-50">
         <div className="text-4xl font-bold  flex items-center space-x-2">
-          <span className="text-[#883cda] text-5xl font-extrabold">SLA finserve</span>
+          <span className="text-[#883cda] text-5xl font-extrabold">SLA Finserve</span>
         </div>
 
         <div

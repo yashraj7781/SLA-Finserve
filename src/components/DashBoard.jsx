@@ -184,7 +184,7 @@ const Dashboard = () => {
           <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
             <div className="bg-white p-8 rounded-lg shadow-lg text-center max-w-md w-full mx-4">
               <div className="mb-6">
-                <div className="inline-block animate-spin rounded-full h-16 w-16 border-t-4 border-blue-600 border-r-4 border-blue-600 border-b-4 border-blue-600 border-l-4 border-blue-200"></div>
+                <div className="inline-block animate-spin rounded-full h-16 w-16 border-t-4  border-r-4  border-b-4 border-l-4 border-blue-200"></div>
               </div>
               <h3 className="text-xl font-medium text-gray-800 mb-2">Processing your file...</h3>
               <p className="text-gray-600 mb-4">This may take a few moments</p>
