@@ -108,7 +108,7 @@ const ManagerDashboard = () => {
 
       
 
-      <div className="bg-white border border-white/20 rounded-xl p-4 backdrop-blur-lg">
+      <div className="bg-white border ml-8 mr-8 border-white/20 rounded-xl p-4 backdrop-blur-lg">
         
 
         <div className="overflow-auto">
@@ -154,7 +154,7 @@ const ManagerDashboard = () => {
       </div>
       
 
-<div className="bg-white border border-white/20 rounded-xl p-4 backdrop-blur-lg mt-6">
+<div className="bg-white border border-white/20 rounded-xl p-4 backdrop-blur-lg mt-6  ml-8 mr-8">
   <h3 className="text-lg font-semibold text-gray-800 mb-4">Files List</h3>
   <div className="overflow-auto">
     <table className="w-full text-black text-sm">
