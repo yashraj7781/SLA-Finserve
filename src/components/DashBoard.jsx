@@ -88,10 +88,10 @@ const Dashboard = () => {
           sidebarOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
-        <div className="p-4 border-b flex justify-between items-center">
+        <div className="p-4 border-b flex justify-between items-center ">
           <div>
-            <div className="text-lg font-semibold text-black">John Smith</div>
-            <div className="text-md text-black">Client ID: #284751</div>
+            <div className="text-lg font-semibold text-black">Data Analyst Dashboard</div>
+             
           </div>
           <button onClick={toggleSidebar} className="text-red-600 text-xl">
             &times;
@@ -99,15 +99,16 @@ const Dashboard = () => {
         </div>
 
         {/* Sidebar content */}
-        <div className="flex flex-col">
-          {/* Add your sidebar links here */}
-          <div className="py-2 px-4 text-gray-700 hover:bg-gray-200 cursor-pointer">
-            Dashboard
+        <div className="flex flex-col border-t">
+        
+           
+          <div className="py-2 px-4 text-gray-700 hover:bg-gray-200 cursor-pointer border-b"> 
+            <a href="/">EA CODE </a>
           </div>
-          <div className="py-2 px-4 text-gray-700 hover:bg-gray-200 cursor-pointer">
-            Settings
+          <div className="py-2 px-4 text-gray-700 hover:bg-gray-200 cursor-pointer border-b"> 
+            <a href="/"> Brokerage ammount </a>
           </div>
-          {/* Add more items as needed */}
+          
         </div>
       </div>
 
@@ -219,8 +220,8 @@ const Dashboard = () => {
           {/* Footer */}
           <footer className="bg-white border-t border-gray-200 mt-auto">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-              <div className="flex flex-col md:flex-row justify-between items-center">
-                <p className="text-gray-500 text-sm">© 2025 File Processor. All rights reserved.</p>
+              <div className="md:flex-row justify-between items-center">
+                <p className="text-gray-500 text-sm text-center">© 2025 Sla Finserve . All rights reserved. Designed in React, Tailwind-css (TECHJAR TECHNOLOGIES) </p>
               </div>
             </div>
           </footer>
