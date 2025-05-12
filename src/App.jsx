@@ -4,6 +4,7 @@ import Homepage from "./components/Homepage";
 import Login from "./components/Login";
 import Dashboard from "./components/DashBoard";
 import ManagerDashboard from "./components/ManagerDashboard";
+import EaCode from "./components/EaCode";
 function App() {
   return (
     <Routes>
@@ -11,6 +12,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/manager-dashboard" element={<ManagerDashboard />} />
+      <Route path="/eacode" element={< EaCode />} />
     </Routes>
   );
 }
